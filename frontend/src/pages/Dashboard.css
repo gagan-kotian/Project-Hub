@@ -1,0 +1,43 @@
+/* Custom font */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 0;
+  background-color: #f3f4f6;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.dashboard-title {
+  margin: 0 2%;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.home-button {
+  margin: 0 3%;
+  border-color: #3b82f6;
+  color: #3b82f6;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.home-button:hover {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.home-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-link:hover {
+  color: inherit;
+}

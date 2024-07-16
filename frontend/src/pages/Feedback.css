@@ -1,0 +1,72 @@
+/* Import the Poppins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Feedback.css */
+
+.feedback-page {
+  margin: 0;
+  min-height: 100vh; /* Ensure the page takes up the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif; /* Apply the custom font */
+}
+
+.feedback-heading {
+  margin-top: 20px;
+  font-size: 2em;
+  font-weight: 600;
+  color: #333;
+}
+
+.feedback-container {
+  display: flex;
+  flex-direction: column; /* Align cards vertically */
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px; /* Add vertical margin */
+  margin-bottom: 20px; /* Add vertical margin */
+}
+
+.feedback-card {
+  cursor: pointer;
+  width: 500px; /* Increase width of cards */
+  height: 250px; /* Adjust height for proportional scaling */
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  font-family: "Poppins", sans-serif; /* Apply the custom font to the card */
+}
+
+.feedback-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(135deg, #ffccf9 0%, #ffebff 100%);
+  color: #333; /* Use a darker color for better contrast */
+  font-family: "Poppins", sans-serif; /* Apply the custom font to the card content */
+}
+
+.feedback-card-title {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .feedback-container {
+    align-items: center;
+  }
+
+  .feedback-card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
