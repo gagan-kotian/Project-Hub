@@ -15,7 +15,7 @@ Index
 - [Installation](#installation)
 - [Run Locally](##RunLocally)
 - [Environment Variables](##Environmentalvariables)
-- [Screenshots](#Screenshots)
+
 
 # Features
 
