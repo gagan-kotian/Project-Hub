@@ -24,10 +24,10 @@ Students can easily upload and submit their projects through a dedicated interfa
 # Teacher Assessment and Review:
 Teachers can review submitted projects, assess them, and provide constructive feedback or grades.
 
-#Feedback Exchange System:
+# Feedback Exchange System:
 A dynamic feedback system allows teachers to leave detailed comments on projects, and students can view and respond to this feedback for better understanding and improvements.
 
-#Responsive and Intuitive UI:
+# Responsive and Intuitive UI:
 The application features a user-friendly and responsive design, ensuring seamless navigation and interaction on both desktop and mobile devices.
 Employer and Employee Collaboration (Additional Use Case):
 The platform can be extended beyond academia, offering a feedback system for employers and employees to collaborate on projects, review progress, and provide feedback.
