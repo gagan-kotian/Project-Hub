@@ -13,8 +13,7 @@ Project Hub is a user-friendly web application implemented using React and Node.
 Index
 - [Features](#Features)
 - [Installation](#installation)
-- [Run Locally](##RunLocally)
-- [Environment Variables](##Environmentalvariables)
+- [Environment Variables](##EnvironmentVariables)
 
 
 # Features
@@ -50,7 +49,7 @@ Install my-project with npm
 
 ```
     
-## Environment Variables
+## EnvironmentVariables
 
 To run this project, you will need to add the following environment variables to your .env file
 
