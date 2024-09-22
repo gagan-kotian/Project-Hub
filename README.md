@@ -14,7 +14,7 @@ Index
 - [Features](#Features)
 - [Installation](#installation)
 - [Environment Variables](##EnvironmentVariables)
-
+- [Tech Stack](##TechStack)
 
 # Features
 
@@ -69,11 +69,10 @@ JWT_SECRET=your_jwt_secret_key
 
 
 
-## Tech Stack
+## TechStack
 
 ReactJS,
-NodeJs,
-ExpressJs,
+Java SpringBoot
 MongoDB
 
 
