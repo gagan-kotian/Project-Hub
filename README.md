@@ -14,7 +14,7 @@ Index
 - [Features](#Features)
 - [Installation](#installation)
 - [Environment Variables](##EnvironmentVariables)
-- [Tech Stack](##TechStack)
+- [Tech Stack](#TechStack)
 
 # Features
 
