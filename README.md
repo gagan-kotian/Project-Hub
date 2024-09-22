@@ -13,7 +13,7 @@ Project Hub is a user-friendly web application implemented using React and Node.
 Index
 - [Features](#Features)
 - [Installation](#installation)
-- [Environment Variables](##EnvironmentVariables)
+- [Environment Variables](#EnvironmentVariables)
 - [Tech Stack](#TechStack)
 
 # Features
