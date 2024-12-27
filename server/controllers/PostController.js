@@ -38,8 +38,7 @@ router.get("/posts/:text", async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
-});
-
+})
 // Add a new post
 router.post("/post", async (req, res) => {
   try {
