@@ -17,12 +17,23 @@ router.get("/allPosts", async (req, res) => {
 router.get("/posts/:text", async (req, res) => {
   try {
     const text = req.params.text;
-    const posts = await Post.find({
-      $or: [
-        { title: { $regex: text, $options: "i" } },
-        { desc: { $regex: text, $options: "i" } },
-      ],
-    });
+    const posts = await Post.aggregate([
+      {
+        $search: {
+          index: "default", // Replace with your search index name if needed
+          text: {
+            query: text,
+            path: ["title", "desc"], // Fields to search
+          },
+        },
+      },
+      {
+        $sort: { createdAt: -1 }, // Sort by creation date in descending order
+      },
+      {
+        $limit: 10, // Limit to 10 results
+      },
+    ]);
     res.status(200).json(posts);
   } catch (error) {
     res.status(500).json({ error: error.message });
